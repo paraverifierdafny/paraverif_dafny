@@ -1,0 +1,3432 @@
+n_coherence
+[38;5;3minitial invs123:
+[0m
+[38;5;3minvHoldForRule3-inv__2:((x = TRUE) & (n[2] = c))[0m
+[38;5;3minvHoldForRule3-inv__2:((x = TRUE) & (n[1] = c))[0m
+[38;5;3minvHoldForRule3-inv__3:((n[2] = e) & (n[1] = c))[0m
+[38;5;3minvHoldForRule3-inv__3:((n[3] = e) & (n[1] = c))[0m
+[38;5;3minvHoldForRule3-inv__3:((n[4] = e) & (n[1] = c))[0m
+[38;5;3minvHoldForRule3-inv__3:((n[5] = e) & (n[1] = c))[0m
+[38;5;3minvHoldForRule3-inv__4:((x = TRUE) & (n[1] = e))[0m
+[38;5;3minvHoldForRule3-inv__1:((n[1] = c) & (n[2] = c))[0m
+[38;5;3minvHoldForRule3-inv__2:((x = TRUE) & (n[1] = c))[0m
+[38;5;3minvHoldForRule3-inv__5:((n[2] = e) & (n[1] = e))[0m
+[38;5;3minvHoldForRule3-inv__5:((n[3] = e) & (n[1] = e))[0m
+[38;5;3minvHoldForRule3-inv__5:((n[4] = e) & (n[1] = e))[0m
+[38;5;3minvHoldForRule3-inv__5:((n[5] = e) & (n[1] = e))[0m
+[38;5;3minvHoldForRule3-inv__3:((n[2] = e) & (n[1] = c))[0m
+[38;5;3minvHoldForRule3-inv__3:((n[1] = e) & (n[2] = c))[0m
+result_to_Str:rule: n_Try[1]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Try[2]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Try[3]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[4]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[5]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[1]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule3-inv__2:((x = TRUE) & (n[2] = c))
+rule: n_Crit[2]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule3-inv__2:((x = TRUE) & (n[1] = c))
+rule: n_Crit[3]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[4]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[5]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[1]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Exit[2]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Exit[3]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[4]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[5]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[1]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Idle[2]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Idle[3]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[4]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[5]; inv: ((n[1] = c) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[1]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Try[2]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[3]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[4]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[5]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[1]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[2]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[3]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[4]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[5]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Exit[1]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Exit[2]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[3]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[4]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[5]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[1]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Idle[2]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule3-inv__3:((n[2] = e) & (n[1] = c))
+rule: n_Idle[3]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule3-inv__3:((n[3] = e) & (n[1] = c))
+rule: n_Idle[4]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule3-inv__3:((n[4] = e) & (n[1] = c))
+rule: n_Idle[5]; inv: ((x = TRUE) & (n[1] = c)); g: TRUE; rel: invHoldForRule3-inv__3:((n[5] = e) & (n[1] = c))
+rule: n_Try[1]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Try[2]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Try[3]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[4]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[5]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[1]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[2]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule3-inv__4:((x = TRUE) & (n[1] = e))
+rule: n_Crit[3]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[4]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[5]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[1]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule3-inv__1:((n[1] = c) & (n[2] = c))
+rule: n_Exit[2]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Exit[3]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[4]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[5]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[1]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Idle[2]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule1
+rule: n_Idle[3]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[4]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[5]; inv: ((n[1] = e) & (n[2] = c)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[1]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Try[2]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[3]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[4]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[5]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[1]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[2]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[3]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[4]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[5]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Exit[1]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule3-inv__2:((x = TRUE) & (n[1] = c))
+rule: n_Exit[2]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[3]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[4]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[5]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[1]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Idle[2]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule3-inv__5:((n[2] = e) & (n[1] = e))
+rule: n_Idle[3]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule3-inv__5:((n[3] = e) & (n[1] = e))
+rule: n_Idle[4]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule3-inv__5:((n[4] = e) & (n[1] = e))
+rule: n_Idle[5]; inv: ((x = TRUE) & (n[1] = e)); g: TRUE; rel: invHoldForRule3-inv__5:((n[5] = e) & (n[1] = e))
+rule: n_Try[1]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Try[2]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Try[3]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[4]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Try[5]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[1]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[2]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Crit[3]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[4]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Crit[5]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[1]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule3-inv__3:((n[2] = e) & (n[1] = c))
+rule: n_Exit[2]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule3-inv__3:((n[1] = e) & (n[2] = c))
+rule: n_Exit[3]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[4]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Exit[5]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[1]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Idle[2]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule1
+rule: n_Idle[3]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[4]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+rule: n_Idle[5]; inv: ((n[1] = e) & (n[2] = e)); g: TRUE; rel: invHoldForRule2
+inv__1: ((n[1] = c) & (n[2] = c))
+inv__2: ((x = TRUE) & (n[1] = c))
+inv__3: ((n[1] = e) & (n[2] = c))
+inv__4: ((x = TRUE) & (n[1] = e))
+inv__5: ((n[1] = e) & (n[2] = e))
+show1n[p__Inv3]&&&n[p__Inv4]
+shown[p---n[p
+show1n[p__Inv4]&&&x[0]
+elimi x[0]
+shown[p---x
+show1n[p__Inv3]&&&n[p__Inv4]
+shown[p---n[p
+show1n[p__Inv4]&&&x[0]
+elimi x[0]
+shown[p---x
+show1n[p__Inv3]&&&n[p__Inv4]
+shown[p---n[p
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+datatype state = I| T| C| E
+type client=nat
+type boolean=bool
+
+
+
+
+method n_Tryinv__1_0(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+//1
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__1_1(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+//1
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__1_2(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__1_3(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__1_4(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+
+method n_Critinv__1_0(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+requires (!((x[0] == true) && (n[p__Inv3] == C)))//3
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__1_1(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//3
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__1_2(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__1_3(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__1_4(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+
+method n_Exitinv__1_0(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+//1
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__1_1(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+//1
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__1_2(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__1_3(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__1_4(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+
+method n_Idleinv__1_0(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+//1
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__1_1(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+//1
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__1_2(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__1_3(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__1_4(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//2
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+
+
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+datatype state = I| T| C| E
+type client=nat
+type boolean=bool
+
+
+
+
+method n_Tryinv__2_0(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i==p__Inv4
+//1
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__2_1(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__2_2(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__2_3(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__2_4(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+
+method n_Critinv__2_0(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i==p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__2_1(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__2_2(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__2_3(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__2_4(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+
+method n_Exitinv__2_0(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i==p__Inv4
+//1
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__2_1(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__2_2(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__2_3(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__2_4(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+
+method n_Idleinv__2_0(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i==p__Inv4
+//1
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__2_1(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((n[i] == E) && (n[p__Inv4] == C)))//3
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__2_2(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((n[i] == E) && (n[p__Inv4] == C)))//3
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__2_3(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((n[i] == E) && (n[p__Inv4] == C)))//3
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__2_4(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((n[i] == E) && (n[p__Inv4] == C)))//3
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+
+
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+datatype state = I| T| C| E
+type client=nat
+type boolean=bool
+
+
+
+
+method n_Tryinv__3_0(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+//1
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__3_1(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+//1
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__3_2(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__3_3(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__3_4(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+
+method n_Critinv__3_0(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__3_1(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+requires (!((x[0] == true) && (n[p__Inv4] == E)))//3
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__3_2(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__3_3(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__3_4(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+
+method n_Exitinv__3_0(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+requires (!((n[p__Inv4] == C) && (n[p__Inv3] == C)))//3
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__3_1(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+//1
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__3_2(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__3_3(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__3_4(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+
+method n_Idleinv__3_0(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+//1
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__3_1(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+//1
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__3_2(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__3_3(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__3_4(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//2
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+
+
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+datatype state = I| T| C| E
+type client=nat
+type boolean=bool
+
+
+
+
+method n_Tryinv__4_0(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i==p__Inv4
+//1
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__4_1(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == E)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__4_2(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == E)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__4_3(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == E)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__4_4(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == E)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+
+method n_Critinv__4_0(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i==p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__4_1(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__4_2(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__4_3(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__4_4(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+
+method n_Exitinv__4_0(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i==p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == C)))//3
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__4_1(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == E)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__4_2(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == E)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__4_3(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == E)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__4_4(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((x[0] == true) && (n[p__Inv4] == E)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+
+method n_Idleinv__4_0(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i==p__Inv4
+//1
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__4_1(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((n[i] == E) && (n[p__Inv4] == E)))//3
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__4_2(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((n[i] == E) && (n[p__Inv4] == E)))//3
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__4_3(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((n[i] == E) && (n[p__Inv4] == E)))//3
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__4_4(n:array<state>,    x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires  p__Inv4<N0
+requires i!=p__Inv4
+requires (!((n[i] == E) && (n[p__Inv4] == E)))//3
+requires (n[i] == E) //guard condition
+ensures   (!((x[0] == true) && (n[p__Inv4] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+
+
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+elimi n[i]
+elimi x[0]
+datatype state = I| T| C| E
+type client=nat
+type boolean=bool
+
+
+
+
+method n_Tryinv__5_0(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+//1
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__5_1(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+//1
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__5_2(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__5_3(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+method n_Tryinv__5_4(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires (n[i] == I) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := T;
+}
+
+
+method n_Critinv__5_0(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__5_1(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+//1
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__5_2(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__5_3(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+method n_Critinv__5_4(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires ((n[i] == T) && (x[0] == true)) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := C;
+  x[0] := false;
+}
+
+
+method n_Exitinv__5_0(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+requires (!((n[p__Inv3] == E) && (n[p__Inv4] == C)))//3
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__5_1(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == C)))//3
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__5_2(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__5_3(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+method n_Exitinv__5_4(n:array<state>,    
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires (n[i] == C) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+
+{
+  n[i] := E;
+}
+
+
+method n_Idleinv__5_0(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv4
+//1
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__5_1(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i==p__Inv3
+//1
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__5_2(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__5_3(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+method n_Idleinv__5_4(n:array<state>,     x:array<boolean>, 
+N0:nat,i:nat,
+p__Inv3:nat,p__Inv4:nat)
+requires N0>0
+
+requires n.Length==N0
+
+
+
+
+requires x.Length==N0
+
+requires forall i,j::0<=i<n.Length&&0<=j<n.Length==>n[i]!=n[j]
+
+
+
+
+requires forall i,j::0<=i<x.Length&&0<=j<x.Length==>x[i]!=x[j]
+
+requires 0<=i<N0
+requires p__Inv3!=p__Inv4&&p__Inv4<N0&& p__Inv3<N0
+requires i!=p__Inv3&&i!=p__Inv4
+requires (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))//2
+requires (n[i] == E) //guard condition
+ensures   (!((n[p__Inv4] == E) && (n[p__Inv3] == E)))
+modifies n
+modifies x
+
+{
+  n[i] := I;
+  x[0] := true;
+}
+
+
+
+datatype state = I| T| C| E
+type client=nat
+type boolean=bool
+
+
+
+
+
+
+
+
+
+
+
+predicate  inv__1(top:TopC,N0:nat,p__Inv3:nat, p__Inv4:nat)
+  reads top
+  reads n[p
+reads n[p
+  requires top.n.Length ==N0
+ requires N0>0
+requires top.n.Length ==N0
+ requires N0>0
+ 
+  requires 0<= p__Inv3<N0
+ requires 0<= p__Inv4<N0
+  {
+(!((top.n[p__Inv4] == C) && (top.n[p__Inv3] == C)))
+}
+
+
+predicate  inv__2(top:TopC,N0:nat,p__Inv4:nat)
+  reads top
+  reads n[p
+reads x
+  requires top.n.Length ==N0
+ requires N0>0
+ 
+  requires 0<= p__Inv4<N0
+  {
+(!((top.x == true) && (top.n[p__Inv4] == C)))
+}
+
+
+predicate  inv__3(top:TopC,N0:nat,p__Inv3:nat, p__Inv4:nat)
+  reads top
+  reads n[p
+reads n[p
+  requires top.n.Length ==N0
+ requires N0>0
+requires top.n.Length ==N0
+ requires N0>0
+ 
+  requires 0<= p__Inv3<N0
+ requires 0<= p__Inv4<N0
+  {
+(!((top.n[p__Inv4] == E) && (top.n[p__Inv3] == C)))
+}
+
+
+predicate  inv__4(top:TopC,N0:nat,p__Inv4:nat)
+  reads top
+  reads n[p
+reads x
+  requires top.n.Length ==N0
+ requires N0>0
+ 
+  requires 0<= p__Inv4<N0
+  {
+(!((top.x == true) && (top.n[p__Inv4] == E)))
+}
+
+
+predicate  inv__5(top:TopC,N0:nat,p__Inv3:nat, p__Inv4:nat)
+  reads top
+  reads n[p
+reads n[p
+  requires top.n.Length ==N0
+ requires N0>0
+requires top.n.Length ==N0
+ requires N0>0
+ 
+  requires 0<= p__Inv3<N0
+ requires 0<= p__Inv4<N0
+  {
+(!((top.n[p__Inv4] == E) && (top.n[p__Inv3] == E)))
+}
+

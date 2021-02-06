@@ -1,0 +1,7 @@
+{
+    "dafny.automaticVerification": false,
+    "dafny.automaticVerificationDelayMS": 10000000,
+    "emmet.extensionsPath": "",
+    "dafny.basePath": "/Users/sword/Documents/Paraverif/dafny",
+    "dafny.monoExecutable": "/Library/Frameworks/Mono.framework/Versions/Current/Commands/mono"
+}

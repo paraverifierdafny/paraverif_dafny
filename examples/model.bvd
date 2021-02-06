@@ -1,0 +1,524 @@
+*** MODEL
+##_System._tuple#0._#Make0 -> T@U!val!45
+##_System._tuple#2._#Make2 -> T@U!val!39
+##m#0 -> **##m#0
+##m#1 -> **##m#1
+##n#0 -> **##n#0
+##n#1 -> **##n#1
+#_System._tuple#0._#Make0 -> T@U!val!55
+$$Language$Dafny -> true
+$_Frame -> **$_Frame
+$_Frame@0 -> T@U!val!59
+$_reverifyPost -> **$_reverifyPost
+$decr$loop#00 -> **$decr$loop#00
+$decr$loop#00@0 -> **$decr$loop#00@0
+$decr$loop#00@1 -> 6
+$decr_init$loop#00 -> **$decr_init$loop#00
+$decr_init$loop#00@0 -> 6
+$FunctionContextHeight -> 2
+$Heap@@3 -> T@U!val!58
+$LZ -> T@U!val!57
+$mv_state_const -> 15
+$OneHeap -> T@U!val!50
+$PreLoopHeap$loop#0 -> **$PreLoopHeap$loop#0
+$Tick -> **$Tick
+$w$loop#0 -> **$w$loop#0
+$w$loop#0@0 -> true
+%lbl%@9 -> false
+%lbl%+12 -> true
+%lbl%+15 -> true
+%lbl%+18 -> true
+%lbl%+19 -> true
+%lbl%+20 -> true
+%lbl%+22 -> true
+%lbl%+23 -> true
+%lbl%+27 -> true
+%lbl%+5 -> true
+alloc -> T@U!val!23
+allocName -> T@U!val!24
+boolType -> T@T!val!2
+BoxType -> T@T!val!10
+charType -> T@T!val!11
+class._module.__default -> T@U!val!47
+class._System.array? -> T@U!val!29
+class._System.bool -> T@U!val!19
+class._System.int -> T@U!val!18
+class._System.multiset -> T@U!val!22
+class._System.object? -> T@U!val!26
+class._System.seq -> T@U!val!21
+class._System.set -> T@U!val!20
+class._System.Tuple0 -> T@U!val!44
+class._System.Tuple2 -> T@U!val!38
+ClassNameType -> T@T!val!6
+DatatypeTypeType -> T@T!val!13
+DtCtorIdType -> T@T!val!9
+HandleTypeType -> T@T!val!16
+intType -> T@T!val!0
+LayerTypeType -> T@T!val!14
+m#0@@6 -> 2
+n#0@@6 -> 6
+NameFamilyType -> T@T!val!8
+newtype$check#0_0_0 -> **newtype$check#0_0_0
+newtype$check#0_0_0@0 -> **newtype$check#0_0_0@0
+newtype$check#0_0_0@1 -> 4
+NoTraitAtAll -> T@U!val!17
+null -> T@U!val!52
+realType -> T@T!val!1
+refType -> T@T!val!12
+Result#0 -> 323
+Result#0@0 -> 1
+Result#0@1 -> 1
+Result#0@3 -> 1
+rmodeType -> T@T!val!3
+TagBool -> T@U!val!5
+TagChar -> T@U!val!6
+TagClass -> T@U!val!16
+Tagclass._module.__default -> T@U!val!48
+Tagclass._System.___hFunc0 -> T@U!val!32
+Tagclass._System.___hFunc1 -> T@U!val!41
+Tagclass._System.___hFunc2 -> T@U!val!35
+Tagclass._System.___hPartialFunc0 -> T@U!val!33
+Tagclass._System.___hPartialFunc1 -> T@U!val!42
+Tagclass._System.___hPartialFunc2 -> T@U!val!36
+Tagclass._System.___hTotalFunc0 -> T@U!val!34
+Tagclass._System.___hTotalFunc1 -> T@U!val!43
+Tagclass._System.___hTotalFunc2 -> T@U!val!37
+Tagclass._System.array -> T@U!val!31
+Tagclass._System.array? -> T@U!val!30
+Tagclass._System.nat -> T@U!val!25
+Tagclass._System.object -> T@U!val!28
+Tagclass._System.object? -> T@U!val!27
+Tagclass._System.Tuple0 -> T@U!val!46
+Tagclass._System.Tuple2 -> T@U!val!40
+TagIMap -> T@U!val!15
+TagInt -> T@U!val!7
+TagISet -> T@U!val!11
+TagMap -> T@U!val!14
+TagMultiSet -> T@U!val!12
+TagORDINAL -> T@U!val!9
+TagReal -> T@U!val!8
+TagSeq -> T@U!val!13
+TagSet -> T@U!val!10
+TBool -> T@U!val!0
+TChar -> T@U!val!1
+Tclass._module.__default -> T@U!val!56
+Tclass._System.nat -> T@U!val!51
+Tclass._System.object -> T@U!val!53
+Tclass._System.object? -> T@U!val!49
+Tclass._System.Tuple0 -> T@U!val!54
+TInt -> T@U!val!2
+TORDINAL -> T@U!val!4
+TReal -> T@U!val!3
+TyTagType -> T@T!val!5
+TyType -> T@T!val!4
+unique-value!103 -> distinct-elems!101!val!0
+unique-value!104 -> distinct-elems!101!val!1
+unique-value!105 -> distinct-elems!101!val!2
+unique-value!106 -> distinct-elems!101!val!3
+unique-value!107 -> distinct-elems!101!val!4
+unique-value!108 -> distinct-elems!101!val!5
+unique-value!109 -> distinct-elems!101!val!6
+unique-value!110 -> distinct-elems!101!val!7
+unique-value!111 -> distinct-elems!101!val!8
+unique-value!112 -> distinct-elems!101!val!9
+unique-value!113 -> distinct-elems!101!val!10
+unique-value!114 -> distinct-elems!101!val!11
+unique-value!115 -> distinct-elems!101!val!12
+unique-value!116 -> distinct-elems!101!val!13
+unique-value!117 -> distinct-elems!101!val!14
+unique-value!118 -> distinct-elems!101!val!15
+unique-value!119 -> distinct-elems!101!val!16
+unique-value!120 -> distinct-elems!101!val!17
+unique-value!121 -> distinct-elems!101!val!18
+unique-value!122 -> distinct-elems!101!val!19
+unique-value!123 -> distinct-elems!101!val!20
+unique-value!124 -> distinct-elems!101!val!21
+unique-value!125 -> distinct-elems!101!val!22
+unique-value!126 -> distinct-elems!101!val!23
+unique-value!127 -> distinct-elems!101!val!24
+unique-value!128 -> distinct-elems!101!val!25
+unique-value!129 -> distinct-elems!101!val!26
+unique-value!130 -> distinct-elems!101!val!27
+unique-value!131 -> distinct-elems!101!val!28
+unique-value!132 -> distinct-elems!101!val!29
+unique-value!133 -> distinct-elems!101!val!30
+unique-value!134 -> distinct-elems!101!val!31
+unique-value!135 -> distinct-elems!101!val!32
+unique-value!136 -> distinct-elems!101!val!33
+unique-value!137 -> distinct-elems!101!val!34
+unique-value!138 -> distinct-elems!101!val!35
+unique-value!139 -> distinct-elems!101!val!36
+unique-value!140 -> distinct-elems!101!val!37
+unique-value!141 -> distinct-elems!101!val!38
+unique-value!142 -> distinct-elems!101!val!39
+unique-value!143 -> distinct-elems!101!val!40
+unique-value!144 -> distinct-elems!101!val!41
+unique-value!145 -> distinct-elems!101!val!42
+unique-value!146 -> distinct-elems!101!val!43
+unique-value!147 -> distinct-elems!101!val!44
+unique-value!148 -> distinct-elems!101!val!45
+unique-value!149 -> distinct-elems!101!val!46
+unique-value!150 -> distinct-elems!101!val!47
+unique-value!151 -> distinct-elems!101!val!48
+x#0@@1 -> 0
+x#0@0 -> 0
+x#0@1 -> 2
+x#0@2 -> 4
+x#0@3 -> 4
+y#0 -> **y#0
+y#0@0 -> **y#0@0
+y#0@1 -> 6
+y#0@2 -> 3
+y#0@4 -> 3
+$HeapSucc -> {
+  T@U!val!58 T@U!val!58 -> true
+  else -> true
+}
+$Is -> {
+  1 T@U!val!51 -> true
+  T@U!val!55 T@U!val!54 -> true
+  else -> true
+}
+$IsGhostField -> {
+  T@U!val!23 -> false
+  else -> false
+}
+$IsGoodHeap -> {
+  T@U!val!50 -> true
+  T@U!val!58 -> true
+  else -> true
+}
+$IsHeapAnchor -> {
+  T@U!val!58 -> true
+  else -> true
+}
+$LS -> {
+  T@U!val!57 -> T@U!val!61
+  T@U!val!61 -> T@U!val!62
+  else -> T@U!val!61
+}
+$mv_state -> {
+  15 0 -> true
+  15 1 -> true
+  15 2 -> true
+  15 3 -> true
+  15 4 -> true
+  15 5 -> true
+  15 6 -> true
+  else -> true
+}
+_module.__default.pow -> {
+  T@U!val!57 2 4 -> 0
+  T@U!val!57 2 5 -> 0
+  T@U!val!57 2 6 -> 0
+  T@U!val!57 4 1 -> 4
+  T@U!val!57 4 2 -> 16
+  T@U!val!57 4 3 -> 64
+  T@U!val!61 2 5 -> 0
+  T@U!val!61 2 6 -> 0
+  T@U!val!61 4 1 -> 4
+  T@U!val!61 4 2 -> 16
+  T@U!val!61 4 3 -> 64
+  T@U!val!62 2 6 -> 0
+  T@U!val!62 4 3 -> 64
+  else -> 0
+}
+_module.__default.pow#canCall -> {
+  2 4 -> true
+  2 5 -> true
+  2 6 -> true
+  4 1 -> true
+  4 2 -> true
+  4 3 -> true
+  else -> true
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!10 -> 10
+  T@T!val!11 -> 11
+  T@T!val!12 -> 17
+  T@T!val!13 -> 18
+  T@T!val!14 -> 19
+  T@T!val!15 -> 16
+  T@T!val!16 -> 20
+  T@T!val!17 -> 23
+  T@T!val!2 -> 2
+  T@T!val!3 -> 3
+  T@T!val!4 -> 4
+  T@T!val!5 -> 5
+  T@T!val!6 -> 6
+  T@T!val!7 -> 7
+  T@T!val!8 -> 8
+  T@T!val!9 -> 9
+  else -> 0
+}
+DatatypeCtorId -> {
+  T@U!val!55 -> T@U!val!45
+  else -> T@U!val!45
+}
+DeclName -> {
+  T@U!val!23 -> T@U!val!24
+  else -> T@U!val!24
+}
+distinct-aux-f!!102 -> {
+  T@U!val!0 -> distinct-elems!101!val!0
+  T@U!val!1 -> distinct-elems!101!val!1
+  T@U!val!10 -> distinct-elems!101!val!10
+  T@U!val!11 -> distinct-elems!101!val!11
+  T@U!val!12 -> distinct-elems!101!val!12
+  T@U!val!13 -> distinct-elems!101!val!13
+  T@U!val!14 -> distinct-elems!101!val!14
+  T@U!val!15 -> distinct-elems!101!val!15
+  T@U!val!16 -> distinct-elems!101!val!16
+  T@U!val!17 -> distinct-elems!101!val!17
+  T@U!val!18 -> distinct-elems!101!val!18
+  T@U!val!19 -> distinct-elems!101!val!19
+  T@U!val!2 -> distinct-elems!101!val!2
+  T@U!val!20 -> distinct-elems!101!val!20
+  T@U!val!21 -> distinct-elems!101!val!21
+  T@U!val!22 -> distinct-elems!101!val!22
+  T@U!val!23 -> distinct-elems!101!val!23
+  T@U!val!24 -> distinct-elems!101!val!24
+  T@U!val!25 -> distinct-elems!101!val!25
+  T@U!val!26 -> distinct-elems!101!val!26
+  T@U!val!27 -> distinct-elems!101!val!27
+  T@U!val!28 -> distinct-elems!101!val!28
+  T@U!val!29 -> distinct-elems!101!val!29
+  T@U!val!3 -> distinct-elems!101!val!3
+  T@U!val!30 -> distinct-elems!101!val!30
+  T@U!val!31 -> distinct-elems!101!val!31
+  T@U!val!32 -> distinct-elems!101!val!32
+  T@U!val!33 -> distinct-elems!101!val!33
+  T@U!val!34 -> distinct-elems!101!val!34
+  T@U!val!35 -> distinct-elems!101!val!35
+  T@U!val!36 -> distinct-elems!101!val!36
+  T@U!val!37 -> distinct-elems!101!val!37
+  T@U!val!38 -> distinct-elems!101!val!38
+  T@U!val!39 -> distinct-elems!101!val!39
+  T@U!val!4 -> distinct-elems!101!val!4
+  T@U!val!40 -> distinct-elems!101!val!40
+  T@U!val!41 -> distinct-elems!101!val!41
+  T@U!val!42 -> distinct-elems!101!val!42
+  T@U!val!43 -> distinct-elems!101!val!43
+  T@U!val!44 -> distinct-elems!101!val!44
+  T@U!val!45 -> distinct-elems!101!val!45
+  T@U!val!46 -> distinct-elems!101!val!46
+  T@U!val!47 -> distinct-elems!101!val!47
+  T@U!val!48 -> distinct-elems!101!val!48
+  T@U!val!5 -> distinct-elems!101!val!5
+  T@U!val!6 -> distinct-elems!101!val!6
+  T@U!val!7 -> distinct-elems!101!val!7
+  T@U!val!8 -> distinct-elems!101!val!8
+  T@U!val!9 -> distinct-elems!101!val!9
+  else -> distinct-elems!101!val!0
+}
+Div -> {
+  6 2 -> 3
+  else -> 3
+}
+FDim -> {
+  T@U!val!23 -> 0
+  else -> 0
+}
+FieldType -> {
+  T@T!val!2 -> T@T!val!7
+  else -> T@T!val!7
+}
+FieldTypeInv0 -> {
+  T@T!val!7 -> T@T!val!2
+  else -> T@T!val!2
+}
+int_2_U -> {
+  1 -> 1
+  else -> 1
+}
+lambda#3 -> {
+  T@U!val!23 T@U!val!52 T@U!val!58 -> T@U!val!59
+  else -> T@U!val!59
+}
+Lit -> {
+  T@U!val!55 -> T@U!val!55
+  else -> T@U!val!55
+}
+LitInt -> {
+  0 -> 0
+  1 -> 1
+  2 -> 2
+  else -> 0
+}
+MapType1Type -> {
+  T@T!val!12 -> T@T!val!15
+  else -> T@T!val!15
+}
+MapType1TypeInv0 -> {
+  T@T!val!15 -> T@T!val!12
+  else -> T@T!val!12
+}
+MapType4Type -> {
+  T@T!val!12 T@T!val!2 -> T@T!val!17
+  else -> T@T!val!17
+}
+MapType4TypeInv0 -> {
+  T@T!val!17 -> T@T!val!12
+  else -> T@T!val!12
+}
+MapType4TypeInv1 -> {
+  T@T!val!17 -> T@T!val!2
+  else -> T@T!val!2
+}
+Mod -> {
+  6 2 -> 0
+  else -> 0
+}
+Mul -> {
+  1 0 -> 0
+  1 64 -> 64
+  2 0 -> 0
+  2 2 -> 4
+  4 16 -> 64
+  4 4 -> 16
+  else -> 0
+}
+Tag -> {
+  T@U!val!0 -> T@U!val!5
+  T@U!val!1 -> T@U!val!6
+  T@U!val!2 -> T@U!val!7
+  T@U!val!3 -> T@U!val!8
+  T@U!val!4 -> T@U!val!9
+  T@U!val!49 -> T@U!val!27
+  T@U!val!51 -> T@U!val!25
+  T@U!val!53 -> T@U!val!28
+  T@U!val!54 -> T@U!val!46
+  T@U!val!56 -> T@U!val!48
+  else -> T@U!val!5
+}
+tickleBool -> {
+  false -> true
+  true -> true
+  else -> true
+}
+type -> {
+  1 -> T@T!val!0
+  T@U!val!0 -> T@T!val!4
+  T@U!val!1 -> T@T!val!4
+  T@U!val!10 -> T@T!val!5
+  T@U!val!11 -> T@T!val!5
+  T@U!val!12 -> T@T!val!5
+  T@U!val!13 -> T@T!val!5
+  T@U!val!14 -> T@T!val!5
+  T@U!val!15 -> T@T!val!5
+  T@U!val!16 -> T@T!val!5
+  T@U!val!17 -> T@T!val!6
+  T@U!val!18 -> T@T!val!6
+  T@U!val!19 -> T@T!val!6
+  T@U!val!2 -> T@T!val!4
+  T@U!val!20 -> T@T!val!6
+  T@U!val!21 -> T@T!val!6
+  T@U!val!22 -> T@T!val!6
+  T@U!val!23 -> T@T!val!7
+  T@U!val!24 -> T@T!val!8
+  T@U!val!25 -> T@T!val!5
+  T@U!val!26 -> T@T!val!6
+  T@U!val!27 -> T@T!val!5
+  T@U!val!28 -> T@T!val!5
+  T@U!val!29 -> T@T!val!6
+  T@U!val!3 -> T@T!val!4
+  T@U!val!30 -> T@T!val!5
+  T@U!val!31 -> T@T!val!5
+  T@U!val!32 -> T@T!val!5
+  T@U!val!33 -> T@T!val!5
+  T@U!val!34 -> T@T!val!5
+  T@U!val!35 -> T@T!val!5
+  T@U!val!36 -> T@T!val!5
+  T@U!val!37 -> T@T!val!5
+  T@U!val!38 -> T@T!val!6
+  T@U!val!39 -> T@T!val!9
+  T@U!val!4 -> T@T!val!4
+  T@U!val!40 -> T@T!val!5
+  T@U!val!41 -> T@T!val!5
+  T@U!val!42 -> T@T!val!5
+  T@U!val!43 -> T@T!val!5
+  T@U!val!44 -> T@T!val!6
+  T@U!val!45 -> T@T!val!9
+  T@U!val!46 -> T@T!val!5
+  T@U!val!47 -> T@T!val!6
+  T@U!val!48 -> T@T!val!5
+  T@U!val!49 -> T@T!val!4
+  T@U!val!5 -> T@T!val!5
+  T@U!val!50 -> T@T!val!15
+  T@U!val!51 -> T@T!val!4
+  T@U!val!52 -> T@T!val!12
+  T@U!val!53 -> T@T!val!4
+  T@U!val!54 -> T@T!val!4
+  T@U!val!55 -> T@T!val!13
+  T@U!val!56 -> T@T!val!4
+  T@U!val!57 -> T@T!val!14
+  T@U!val!58 -> T@T!val!15
+  T@U!val!59 -> T@T!val!17
+  T@U!val!6 -> T@T!val!5
+  T@U!val!61 -> T@T!val!14
+  T@U!val!62 -> T@T!val!14
+  T@U!val!7 -> T@T!val!5
+  T@U!val!8 -> T@T!val!5
+  T@U!val!9 -> T@T!val!5
+  else -> T@T!val!5
+}
+U_2_int -> {
+  1 -> 1
+  else -> 1
+}
+*** STATE <initial>
+  ##m#0 -> **##m#0
+  ##m#1 -> **##m#1
+  ##n#0 -> **##n#0
+  ##n#1 -> **##n#1
+  $_Frame -> **$_Frame
+  $_reverifyPost -> **$_reverifyPost
+  $decr$loop#00 -> **$decr$loop#00
+  $decr_init$loop#00 -> **$decr_init$loop#00
+  $Heap -> T@U!val!58
+  $PreLoopHeap$loop#0 -> **$PreLoopHeap$loop#0
+  $Tick -> **$Tick
+  $w$loop#0 -> **$w$loop#0
+  m#0 -> 2
+  n#0 -> 6
+  newtype$check#0_0_0 -> **newtype$check#0_0_0
+  Result#0 -> 323
+  x#0 -> 0
+  y#0 -> **y#0
+*** END_STATE
+*** STATE /Users/sword/Documents/Paraverif/newParaVerifier-master/examples/loopprogram/power_binary.dfy(16,0): initial state
+  $_Frame -> T@U!val!59
+*** END_STATE
+*** STATE /Users/sword/Documents/Paraverif/newParaVerifier-master/examples/loopprogram/power_binary.dfy(19,14)
+  $_reverifyPost -> false
+  Result#0 -> 1
+  x#0 -> 0
+  y#0 -> **y#0@0
+*** END_STATE
+*** STATE /Users/sword/Documents/Paraverif/newParaVerifier-master/examples/loopprogram/power_binary.dfy(20,9)
+  x#0 -> 2
+*** END_STATE
+*** STATE /Users/sword/Documents/Paraverif/newParaVerifier-master/examples/loopprogram/power_binary.dfy(21,9)
+  y#0 -> 6
+*** END_STATE
+*** STATE /Users/sword/Documents/Paraverif/newParaVerifier-master/examples/loopprogram/power_binary.dfy(22,3): after some loop iterations
+  $decr$loop#00 -> **$decr$loop#00@0
+  $decr_init$loop#00 -> 6
+  $PreLoopHeap$loop#0 -> T@U!val!58
+  $w$loop#0 -> true
+  newtype$check#0_0_0 -> **newtype$check#0_0_0@0
+  Result#0 -> 1
+  x#0 -> 2
+  y#0 -> 6
+*** END_STATE
+*** STATE /Users/sword/Documents/Paraverif/newParaVerifier-master/examples/loopprogram/power_binary.dfy(28,19)
+  $decr$loop#00 -> 6
+  newtype$check#0_0_0 -> 4
+  x#0 -> 4
+*** END_STATE
+*** STATE /Users/sword/Documents/Paraverif/newParaVerifier-master/examples/loopprogram/power_binary.dfy(29,19)
+  y#0 -> 3
+*** END_STATE
+*** END_MODEL
