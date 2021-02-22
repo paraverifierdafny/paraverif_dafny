@@ -5,7 +5,7 @@ paraverif_dafny presents an induction approach to verify the cache coherence pro
 Dafny theory files for paper:<br>
 ---
 *Encoding Induction Proof into Dafny*<br>
->The main theorems proved are:<br>
+>The main safety-critical protocols proved are:<br>
 >>Cache Coherence Protocol):<br>
 >>>|Protocols|Rules|Scripts|Time(sec.)|Memory(KB)|
 >>>|:---:|:---:|:---:|:---:|:---:|
