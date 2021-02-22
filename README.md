@@ -1,5 +1,8 @@
-# paraverif_dafny prsents an induction approach to verify the cache coherence protocol, loop program and security protocol
-
+paraverif_dafny
+====
+paraverif_dafny presents an induction approach to verify the cache coherence protocol, loop program and security protocol.
+Dafny theory files for paper 
+Encoding Induction Proof into Dafny
 #how to compile the cache coherence instance:
 
 $ cd server/
