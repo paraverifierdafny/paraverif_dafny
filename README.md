@@ -5,6 +5,8 @@ paraverif_dafny
 >>*Encoding Induction Proof into Dafny*<br>
 >The main theorems proved are:<br>
 >>>poof_scripts(cache coherence protocol)<br>
+>>>|Protocols|Rules|Scripts|Time(sec.)|Memory(KB)|
+>>>|---|---|---|---|---|
 >>>security protocol<br>
 >>>loop program<br>
 #how to compile the cache coherence instance:
