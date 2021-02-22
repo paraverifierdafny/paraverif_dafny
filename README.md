@@ -4,17 +4,17 @@ paraverif_dafny
 >Dafny theory files for paper:<br>
 >>*Encoding Induction Proof into Dafny*<br>
 >The main theorems proved are:<br>
->>>poof_scripts(cache coherence protocol)<br>
+>>poof_scripts(cache coherence protocol)<br>
 >>>|Protocols|Rules|Scripts|Time(sec.)|Memory(KB)|
->>>|---|---|---|---|---|
+>>>|:---:|:---:|:---:|:---:|:---:|
 >>>|MESI|3|4|22|87|
 >>>|MOESI|3|4|19|59|
 >>>|MutualEx|5|5|24|59|
 >>>German|58|13|621|2433|
 >>>Flash_nodata|152|60|9930|109660|
 >>>Flash_data|165|62|10600|71276|
->>>security protocol<br>
->>>loop program<br>
+>>security protocol<br>
+>>loop program<br>
 #how to compile the cache coherence instance:
 
 $ cd server/
