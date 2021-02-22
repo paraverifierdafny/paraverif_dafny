@@ -14,7 +14,7 @@ paraverif_dafny
 >>>Flash_nodata|152|60|9930|109660|
 >>>Flash_data|165|62|10600|71276|
 >>security protocol:<br>
->>>The Needham–Schroeder Public-Key Protocol<br>
+>>>The Needham–Schroeder Public-Key Protocol
 >>loop program:<br>
 >>>|Algorithm|Type|
 >>>|:---:|:---:|
