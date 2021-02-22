@@ -4,9 +4,9 @@ paraverif_dafny
 >Dafny theory files for paper:<br>
 >>*Encoding Induction Proof into Dafny*<br>
 >The main theorems proved are:<br>
->>poof_scripts(cache coherence protocol)
->>security protocol
->>loop program
+>>poof_scripts(cache coherence protocol)<br>
+>>security protocol<br>
+>>loop program<br>
 #how to compile the cache coherence instance:
 
 $ cd server/
