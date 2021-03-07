@@ -13,11 +13,11 @@ method aencrtpy(aencMsg:message,aencKey:message,intruKnows:set<message>) returns
 method dencrtpy(msg:message,aencKey:message,aencMsg:message,intruKnows:set<message>) returns (newIntruKnows:set<message>)
     requires msg in intruKnows
     requires aencKey in intruKnows
-    requires aencMsg != Var("Na")
+    requires aencMsg != Var("Nb")
     requires aencMsg !in intruKnows
     requires msg == Aenc(aencMsg,aencKey)
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in newIntruKnows
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in newIntruKnows
     ensures aencMsg in newIntruKnows
     {
         newIntruKnows:=intruKnows+{aencMsg};
@@ -36,25 +36,25 @@ method dsencrtpy(msg:message,sencKey:message,sencMsg:message,intruKnows:set<mess
     requires sencKey in intruKnows
     requires sencMsg !in intruKnows
     requires msg == Senc(sencMsg,sencKey)
-    requires sencMsg != Var("Na")
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in newIntruKnows
+    requires sencMsg != Var("Nb")
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in newIntruKnows
     ensures sencMsg in newIntruKnows
     {
         newIntruKnows:=intruKnows+{sencMsg};
     }
-method destructPair(pairMsg:message,m1:message,m2:message,intruKnows:set<message>)returns (newIntruKnows:set<message>)
+method Separate(pairMsg:message,m1:message,m2:message,intruKnows:set<message>)returns (newIntruKnows:set<message>)
     requires pairMsg in intruKnows
     requires pairMsg == Pair(m1,m2)
     requires m1 !in intruKnows || m2 !in intruKnows
-    requires m1 != Var("Na") && m2 != Var("Na")
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in newIntruKnows
+    requires m1 != Var("Nb") && m2 != Var("Nb")
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in newIntruKnows
     ensures m1 in newIntruKnows && m2 in newIntruKnows
     {
         newIntruKnows:=intruKnows+{m1,m2};
     }
-method constructPair(m1:message,m2:message,intruKnows:set<message>) returns (newIntruKnows:set<message>)
+method Pairing(m1:message,m2:message,intruKnows:set<message>) returns (newIntruKnows:set<message>)
     requires m1 in intruKnows
     requires m2 in intruKnows
     requires Pair(m1,m2) !in intruKnows
@@ -66,8 +66,8 @@ method ReceiveMsgFromChannel(c:channel,m1:message,intruKnows:set<message>) retur
     requires c.Length > 0 
     requires m1!=Nil  
     requires m1 == c[0]
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in intruKnows
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in intruKnows
     ensures m1 == m
     ensures c[0] == Nil
     modifies c
@@ -77,8 +77,8 @@ method ReceiveMsgFromChannel(c:channel,m1:message,intruKnows:set<message>) retur
 }
 method SendMsgToChannel(c:channel,m:message,intruKnows:set<message>)//put the message into channel
     requires c.Length > 0 
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in intruKnows
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in intruKnows
     ensures  c[0] == m
     modifies c
 {
@@ -86,8 +86,8 @@ method SendMsgToChannel(c:channel,m:message,intruKnows:set<message>)//put the me
 }
 method AliceSendMsg_1(c:channel,intruKnows:set<message>)//Alice sends the first message into channel
     requires c.Length > 0
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in intruKnows
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in intruKnows
     ensures  c[0]!=Nil
     modifies c
 {
@@ -97,8 +97,8 @@ method AliceSendMsg_1(c:channel,intruKnows:set<message>)//Alice sends the first 
 }
 method AliceSendMsg_2(c:channel,intruKnows:set<message>)//Alice sends the second message into channel
     requires c.Length > 0
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in intruKnows
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in intruKnows
     ensures c[0]!=Nil
     modifies c
 {
@@ -108,8 +108,8 @@ method AliceSendMsg_2(c:channel,intruKnows:set<message>)//Alice sends the second
 }
 method BobSendMsg_1(c:channel,intruKnows:set<message>)//Bob sends the first message into channel
     requires c.Length > 0
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in intruKnows
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in intruKnows
     ensures c[0] != Nil
     modifies c
 {
@@ -122,8 +122,8 @@ method BobSendMsg_1(c:channel,intruKnows:set<message>)//Bob sends the first mess
     requires c.Length > 0 
     requires flag == false
     requires rverify(c[0])
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in intruKnows
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in intruKnows
     ensures c[0]==Nil
     ensures m!=Nil
     modifies c
@@ -134,8 +134,8 @@ method BobSendMsg_1(c:channel,intruKnows:set<message>)//Bob sends the first mess
   method BobGetMsg_1(c:array<message>,intruKnows:set<message>) returns (m:message)//Bob receives the first message from channel
     requires c.Length > 0 
     requires rverify(c[0])
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in intruKnows
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in intruKnows
     ensures c[0]==Nil
     ensures m!=Nil
     modifies c
@@ -146,8 +146,8 @@ method BobSendMsg_1(c:channel,intruKnows:set<message>)//Bob sends the first mess
   method BobGetMsg_2(c:array<message>,intruKnows:set<message>) returns (m:message)//Bob receives the third message from channel
     requires c.Length > 0 
     requires rverify(c[0])
-    requires Var("Na") !in intruKnows
-    ensures Var("Na") !in intruKnows
+    requires Var("Nb") !in intruKnows
+    ensures Var("Nb") !in intruKnows
     ensures c[0]==Nil
     ensures m!=Nil
     modifies c
@@ -166,7 +166,17 @@ method IntruderGetMsg(c:channel,intruKnows:set<message>,i:int) returns (newIntru
     newIntruKnows := intruKnows+{aencMsg,c[0]};
     c[0]:=Nil;
 }
- 
+
+method IntruderSendMsg(c:channel,m:message,intruKnws:set<message>)
+    requires c.Length > 0
+    requires Var("Nb") !in intruKnws
+    ensures Var("Nb") !in intruKnws
+    requires m in intruKnws
+    ensures c[0]!=Nil
+    modifies c
+{
+    c[0] :=m;
+} 
 predicate  rverify(m:message)//Alice or Bob verify Message received
 {
     match m
@@ -207,9 +217,9 @@ function method  destruct(m:message):message//Destruct the message into submessa
     case K(r1,r2)=>K(r1,r2)
     case Pair(m1,m2) =>  Pair(m1,m2)
  }
-method Main(){
-    var n:=Var("Na");
-    var c:=new message[1];
-    var ik:= {n};
-    AliceSendMsg_1(c,ik);
-}
+// method Main(){
+//     var n:=Var("Na");
+//     var c:=new message[1];
+//     var ik:= {n};
+//     AliceSendMsg_1(c,ik);
+// }
