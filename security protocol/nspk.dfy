@@ -158,7 +158,7 @@ method BobSendMsg_1(c:channel,intruKnows:set<message>)//Bob sends the first mess
 method IntruderGetMsg(c:channel,intruKnows:set<message>,i:int) returns (newIntruKnows:set<message>)//intruder intercepts the message in channel and insert it into intruder knowledge databases.
     requires c.Length > 0
     requires iverify(c[0])
-    // ensures Var("Na") !in intruKnows    // ensures forall i:int :: 0<=i<is.Length ==> is[i]!=Var("Na")
+    ensures Var("Na") !in intruKnows    // ensures forall i:int :: 0<=i<is.Length ==> is[i]!=Var("Na")
     ensures c[0] == Nil
     modifies c
 {   
@@ -171,6 +171,7 @@ method IntruderSendMsg(c:channel,m:message,intruKnws:set<message>)
     requires c.Length > 0
     requires Var("Nb") !in intruKnws
     ensures Var("Nb") !in intruKnws
+    requires m != Nil
     requires m in intruKnws
     ensures c[0]!=Nil
     modifies c
@@ -217,9 +218,4 @@ function method  destruct(m:message):message//Destruct the message into submessa
     case K(r1,r2)=>K(r1,r2)
     case Pair(m1,m2) =>  Pair(m1,m2)
  }
-// method Main(){
-//     var n:=Var("Na");
-//     var c:=new message[1];
-//     var ik:= {n};
-//     AliceSendMsg_1(c,ik);
-// }
+ 
