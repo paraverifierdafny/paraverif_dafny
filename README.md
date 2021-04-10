@@ -34,7 +34,7 @@ Installation<br>
 ---
 In our experiment, Paraverifier_Dafny tool is run on a PC server with macOS Catalina.<br>
 Install Paraverifier_Dafny Environment<br>
-Paraverifier_Dafny uses Ocaml 4.02.2, Dafny 3.0.0.30203, NuSMV 2.6.0, SMT solver Z3, CMurphi 5.4.9.1 and requires serverl ocaml libraries to run, which contains:<br>
+Paraverifier_Dafny uses Ocaml 4.02.2, Dafny 3.0.0.30203, NuSMV 2.6.0, SMT solver Z3, CMurphi 5.4.9.1, python and requires serverl ocaml libraries to run, which contains:<br>
 * Core<br>
 * async<br>
 * yojson<br>
@@ -42,5 +42,13 @@ Paraverifier_Dafny uses Ocaml 4.02.2, Dafny 3.0.0.30203, NuSMV 2.6.0, SMT solver
 * cohttp<br>
 * async_graphics<br>
 
-
-
+Usage<br>
+---
+First, run the server with the following command:<br>
+$ cd {path}/server<br>
+$ python server -v <br>
+Then, enter the example folder to run the correspoding .ml file<br>
+$ cd ../example<br>
+$ corebuild mutual.byte -pkg str,re2 -I src <br>
+Finally, run the executable file mutual.byte to verify the mutual exclusion protocol:<br>
+$ ./mutual.byte <br>
