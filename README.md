@@ -29,3 +29,12 @@ Dafny theory files for paper:<br>
 >>>|Greatest common divisor|arithmetric|
 >>>|Integer division|arithmetric|
 >>>|Long integer addition|arithmetric|
+
+Installation<br>
+---
+In our experiment, Paraverifier_Dafny tool is run on a PC server with macOS Catalina.<br>
+Install Paraverifier_Dafny Environment<br>
+Paraverifier_Dafny uses Ocaml 4.02.2, Dafny 3.0.0.30203, NuSMV 2.6.0, SMT solver Z3, CMurphi 5.4.9.1 and requires serverl ocaml libraries to run, which contains:<br>
+-Core
+-async
+
