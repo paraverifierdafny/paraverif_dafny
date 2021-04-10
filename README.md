@@ -44,11 +44,11 @@ Paraverifier_Dafny uses Ocaml 4.02.2, Dafny 3.0.0.30203, NuSMV 2.6.0, SMT solver
 
 Usage<br>
 ---
-First, run the server with the following command:<br>
-$ cd {path}/server<br>
-$ python server -v <br>
-Then, enter the example folder to run the correspoding .ml file<br>
-$ cd ../example<br>
-$ corebuild mutual.byte -pkg str,re2 -I src <br>
-Finally, run the executable file mutual.byte to verify the mutual exclusion protocol:<br>
-$ ./mutual.byte <br>
+First, run the server with the following command:<br><br>
+$ cd {path}/server<br><br>
+$ python server -v <br><br>
+Then, enter the example folder to run the correspoding .ml file<br><br>
+$ cd ../example<br><br>
+$ corebuild mutual.byte -pkg str,re2 -I src <br><br>
+Finally, run the executable file mutual.byte to verify the mutual exclusion protocol:<br><br>
+$ ./mutual.byte <br><br>
