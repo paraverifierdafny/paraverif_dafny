@@ -34,7 +34,7 @@ Installation<br>
 ---
 In our experiment, Paraverifier_Dafny tool is run on a PC server with macOS Catalina.<br><br>
 Install Paraverifier_Dafny Environment<br><br>
-Paraverifier_Dafny uses Ocaml 4.02.2, Dafny 3.0.0.30203, NuSMV 2.6.0, SMT solver Z3, CMurphi 5.4.9.1, python and requires serverl ocaml libraries to run, which contains:<br><br>
+Paraverifier_Dafny uses Ocaml 4.02.2, Dafny 3.0.0.30203, NuSMV 2.6.0, SMT solver Z3, CMurphi 5.4.9.1, python and requires serverl ocaml libraries to run, which contains:<br>
   * Core<br>
   * async<br>
   * yojson<br>
